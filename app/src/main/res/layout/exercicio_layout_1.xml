@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Grupo Principal-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Primeiro Grupo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="BOTÃO 1"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/botao_sem_arredondamento"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="BOTÃO 2"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/botao_sem_arredondamento"
+            />
+
+    </LinearLayout>
+    <!-- Segundo Grupo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BOTÃO 3"
+            android:background="@drawable/botao_sem_arredondamento"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BOTÃO 4"
+            android:background="@drawable/botao_sem_arredondamento"
+            />
+
+    </LinearLayout>
+    <!-- Terceiro Grupo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="BOTÃO 5"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/botao_sem_arredondamento"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="BOTÃO 6"
+            android:layout_weight="2"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/botao_sem_arredondamento"
+            />
+
+    </LinearLayout>
+    <!-- Quarto Grupo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="BOTÃO 7"
+            android:background="@drawable/botao_sem_arredondamento"
+            android:layout_marginBottom="5dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:text="BOTÃO 8"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/botao_sem_arredondamento"
+            android:layout_marginTop="5dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
